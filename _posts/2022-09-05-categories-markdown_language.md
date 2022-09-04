@@ -3,7 +3,7 @@ title: "[GITHUB] MarkDown Language"
 excerpt: "MarkDown Language"
 
 categories:
-  - GIT&GITHUB
+  - GIT & GITHUB
 tags:
   - [github, markdown]
 
