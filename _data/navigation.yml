@@ -19,10 +19,10 @@ main:
 # 2022.02.15 sidebar update : simple ver.
 categories:
   - title: "HTML & CSS & SCSS"
-    url: /categories/categories1/
+    url: /categories/HTML&CSS&SCSS/
   - title: "GIT & GITHUB"
-    url: /categories/categories2/
+    url: /categories/GIT&GITHUB/
   - title: "Javascript"
-    url: /categories/categories3/
+    url: /categories/Javascript/
   - title: "Project"
-    url: /categories/categories4/
+    url: /categories/Project/
