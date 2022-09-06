@@ -5,15 +5,15 @@ excerpt: "Language"
 categories:
   - JQeury
 tags:
-  - [tag1, tag2]
+  - [HTML/CSS, JQeury]
 
-permalink: /JQeury/post-name-here/
+permalink: /JQeury/file_upload/
 
 toc: true
 toc_sticky: true
 
-date: 2020-05-21
-last_modified_at: 2021-10-09
+date: 2022-09-06
+last_modified_at: 2022-09-06
 ---
 
 ## JQuery를 활용한 파일 업로드 UI 
