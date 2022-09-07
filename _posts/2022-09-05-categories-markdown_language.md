@@ -55,25 +55,25 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
 
 ### BlockQuote
-인용문자는 ```>``` 를 이용 
-<pre>
-    <code>
-        > blockqute test.
-        >	> blockqute test.
-    </code>
+  인용문자는 ```>``` 를 이용 
+  <pre>
+      <code>
+          > blockqute test.
+          >	> blockqute test.
+      </code>
   </pre>
 
 
-### Lst
+### List
 순서있는 목록 : ```숫자 + .``` 
 순서없는 목록 : ```*```,```+``` ,``` -``` 지원 / 혼합하여 사용가능  
 
-<pre>
-    <code>
-       1. list test
-       2. list test
-       3. list teset
-    </code>
+  <pre>
+      <code>
+        1. list test
+        2. list test
+        3. list teset
+      </code>
   </pre>
 
   <pre>
@@ -93,126 +93,126 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
     </code>
   </pre>
 
-결과물 :
-* list test
-  + list test
+  결과물 :
+  * list test
     + list test
       + list test
-* list test
-  - list test
+        + list test
+  * list test
     - list test
       - list test
-* list teset
+        - list test
   * list teset
     * list teset
-    * list teset
+      * list teset
+      * list teset
 
 
 ### Code
-코드 삽입의 방법은 세가지로 
-1. 들여쓰기 (코드의 시작과 끝에 한줄 비우기!!)
-2. ```<pre><code>{code}</code></pre>``` 사용
-3. "```" 사용 (코드블럭)
-4. "``"사용 (인라인코드블럭)
+  코드 삽입의 방법은 세가지로 
+  1. 들여쓰기 (코드의 시작과 끝에 한줄 비우기!!)
+  2. ```<pre><code>{code}</code></pre>``` 사용
+  3. "```" 사용 (코드블럭)
+  4. "``"사용 (인라인코드블럭)
 
 
 
 ### 수평선 
-<pre>
-  <code>
-    * * *
+  <pre>
+    <code>
+      * * *
 
-    ***
+      ***
 
-    *****
+      *****
 
-    - - -
+      - - -
 
-    ---------------------------------------
-  </code>
-</pre>
+      ---------------------------------------
+    </code>
+  </pre>
 
-결과물 :
-* * *
+  결과물 :
+  * * *
 
-***
+  ***
 
-*****
+  *****
 
-- - -
+  - - -
 
----------------------------------------
+  ---------------------------------------
 
 ### Link
-1. 참조링크 
-2. 외부링크
-3. url 노출 링크
+  1. 참조링크 
+  2. 외부링크
+  3. url 노출 링크
 
 
 ### emophasis
-<pre>
-  <code>
-    *single asterisks*
-    _single underscores_
-    **double asterisks**
-    __double underscores__
-    ~~cancelline~~
-  </code>
-</pre>
+  <pre>
+    <code>
+      *single asterisks*
+      _single underscores_
+      **double asterisks**
+      __double underscores__
+      ~~cancelline~~
+    </code>
+  </pre>
 
-결과물 :
+  결과물 :
 
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
+  *single asterisks*
+  _single underscores_
+  **double asterisks**
+  __double underscores__
+  ~~cancelline~~
 
 
 ### Image
-<pre>
-  <code>
-    ![Alt text](/path/to/img.jpg)
-    ![Alt text](/path/to/img.jpg "Optional title")
+  <pre>
+    <code>
+      ![Alt text](/path/to/img.jpg)
+      ![Alt text](/path/to/img.jpg "Optional title")
 
-    <img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-    <img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
-  </code>
-</pre>
+      <img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+      <img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+    </code>
+  </pre>
 
 
 ### Table
 
-table 생성 사이트 : https://www.tablesgenerator.com/markdown_tables
+  table 생성 사이트 : https://www.tablesgenerator.com/markdown_tables
 
 
 ### ASCII code 
-특수문자를 변환되지않고 사용하고싶다면 ASCII code로 입력하기 
-http://www.umsiko.co.za/links/specchar.html
+  특수문자를 변환되지않고 사용하고싶다면 ASCII code로 입력하기 
+  http://www.umsiko.co.za/links/specchar.html
 
-<pre>
-  <code>
-    "(&#34; 또는 &quot;),
+  <pre>
+    <code>
+      "(&#34; 또는 &quot;),
 
-    #(&#35;),
+      #(&#35;),
 
-    %(&#37;),
+      %(&#37;),
 
-    &(&#38; 또는 &amp;),
+      &(&#38; 또는 &amp;),
 
-    '(&#39;),
+      '(&#39;),
 
-    *(&#42;),
+      *(&#42;),
 
-    <(&#60; 또는 &lt;),
+      <(&#60; 또는 &lt;),
 
-    >(&#62; 또는 &gt;),
+      >(&#62; 또는 &gt;),
 
-    _(&#95;),
+      _(&#95;),
 
-    `(&#96;),
+      `(&#96;),
 
-    " "(공백)(&nbsp;)
+      " "(공백)(&nbsp;)
 
-  </code>
-</pre>
+    </code>
+  </pre>
