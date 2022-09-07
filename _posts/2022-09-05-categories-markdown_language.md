@@ -40,44 +40,31 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 ##  MarkDown Language Syntax
 
   ###  Header
-    <p> 제목은 `<h1> ~ <h6>` 까지 "#"의 개수로 표현 </p> 
+   제목은 ```<h1>``` ~ ```<h6>``` 까지 "#"의 개수로 표현
 
-    <pre>
-      <code>
-        # <h1> 
-        ## <h2>
-        ### <h3>
-        #### <h4>
-        ##### <h5>
-        ###### <h6>     
-      </code>
-    </pre>
+    # <h1> 
+    ## <h2>
+    ### <h3>
+    #### <h4>
+    ##### <h5>
+    ###### <h6>     
 
 
   ###  BlockQuote
-    <p>인용문자는 ```>``` 를 이용 </p>
-    <pre>
-        <code>
-            > blockqute test.
-            >	> blockqute test.
-        </code>
-    </pre>
-
+   인용문자는 ```>``` 를 이용
+    
+    > blockqute test.
+    >	> blockqute test.
 
   ###  List
-  순서있는 목록 : ```숫자 + .``` 
-  순서없는 목록 : ```*```,```+``` ,``` -``` 지원 / 혼합하여 사용가능  
+  - 순서있는 목록 : ```숫자 + .``` 
+  - 순서없는 목록 : ```*```,```+``` ,``` -``` 지원 / 혼합하여 사용가능  
 
-    <pre>
-        <code>
-          1. list test
-          2. list test
-          3. list teset
-        </code>
-    </pre>
+        1. list test
+        2. list test
+        3. list teset
 
-    <pre>
-      <code>
+
         * list test
           + list test
             + list test
@@ -90,8 +77,7 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
           * list teset
             * list teset
             * list teset
-      </code>
-    </pre>
+
 
     결과물 :
     * list test
@@ -109,30 +95,16 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
 
   ###  Code  
-    코드 삽입의 방법은 세가지로 
-    1. 들여쓰기 (코드의 시작과 끝에 한줄 비우기!!)
-    2. ```<pre><code>{code}</code></pre>``` 사용
-    3. "```" 사용 (코드블럭)
-    4. "``"사용 (인라인코드블럭)
+  코드 삽입의 방법은 네가지로 분류 
+  1. 들여쓰기 (코드의 시작과 끝에 한줄 비우기!!)
+  2. ` <pre><code>{code}</code></pre>` 사용
+  3. ` ``` ` 사용 (코드블럭)
+  4. ` `` ` 사용 (인라인코드블럭)
 
 
 
   ###  수평선 
-    <pre>
-      <code>
-        * * *
-
-        ***
-
-        *****
-
-        - - -
-
-        ---------------------------------------
-      </code>
-    </pre>
-
-    결과물 :
+   
     * * *
 
     ***
@@ -143,80 +115,73 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
     ---------------------------------------
 
+  결과물 :
+  * * *
+
+  ***
+
+  *****
+
+  - - -
+
+  ---------------------------------------
+
   ###  Link
-    1. 참조링크 
-    2. 외부링크
-    3. url 노출 링크
+  
+  1. 참조링크 
+  2. 외부링크
+  3. url 노출 링크
 
 
   ###  emophasis
-    <pre>
-      <code>
-        *single asterisks*
-        _single underscores_
-        **double asterisks**
-        __double underscores__
-        ~~cancelline~~
-      </code>
-    </pre>
-
-    결과물 :
 
     *single asterisks*
     _single underscores_
     **double asterisks**
     __double underscores__
     ~~cancelline~~
+      
+  결과물 :
+
+  *single asterisks*
+  _single underscores_
+  **double asterisks**
+  __double underscores__
+  ~~cancelline~~
 
 
   ###  Image
-    <pre>
-      <code>
-        ![Alt text](/path/to/img.jpg)
-        ![Alt text](/path/to/img.jpg "Optional title")
+   
+    ![Alt text](/path/to/img.jpg)
+    ![Alt text](/path/to/img.jpg "Optional title")
 
-        <img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-        <img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
-      </code>
-    </pre>
+    <img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+    <img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+     
 
 
   ###  Table
 
-    table 생성 사이트 : https://www.tablesgenerator.com/markdown_tables
+  table 생성 사이트 : https://www.tablesgenerator.com/markdown_tables
 
 
   ###  ASCII code 
-    특수문자를 변환되지않고 사용하고싶다면 ASCII code로 입력하기 
-    http://www.umsiko.co.za/links/specchar.html
+  특수문자를 변환되지않고 사용하고싶다면 ASCII code로 입력하기 
+  http://www.umsiko.co.za/links/specchar.html
 
-    <pre>
-      <code>
-        "(&#34; 또는 &quot;),
+    "(&#34; 또는 &quot;),
+    #(&#35;),
+    %(&#37;),
+    &(&#38; 또는 &amp;),
+    '(&#39;),
+    *(&#42;),
+    <(&#60; 또는 &lt;),
+    >(&#62; 또는 &gt;),
+    _(&#95;),
+    `(&#96;),
+    " "(공백)(&nbsp;)
 
-        #(&#35;),
-
-        %(&#37;),
-
-        &(&#38; 또는 &amp;),
-
-        '(&#39;),
-
-        *(&#42;),
-
-        <(&#60; 또는 &lt;),
-
-        >(&#62; 또는 &gt;),
-
-        _(&#95;),
-
-        `(&#96;),
-
-        " "(공백)(&nbsp;)
-
-      </code>
-    </pre>
 
   ### text-align 
 
-  ##  text-box
+  ####  text-box
