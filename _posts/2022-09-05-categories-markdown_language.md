@@ -31,16 +31,16 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
   <li>지원하는 프로그램과 플랫폼의 다양성.</li>
 </ol>
 
-##  MarkDown 단점
+##  MarkDown 단점  
 <ol>
   <li>표준이 없음</li>
   <li>모든 HTML 마크업을 대신할 수 없음.</li>
 </ol>
 
 
-## MarkDown Language Syntax
+##  MarkDown Language Syntax
 
-  ### Header
+  ###  Header
     제목은 <h1> ~ <h6> 까지 "#"의 개수로 표현
     <pre>
       <code>
@@ -54,7 +54,7 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
     </pre>
 
 
-  ### BlockQuote
+  ###  BlockQuote
     인용문자는 ```>``` 를 이용 
     <pre>
         <code>
@@ -64,7 +64,7 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
     </pre>
 
 
-  ### List
+  ###  List
   순서있는 목록 : ```숫자 + .``` 
   순서없는 목록 : ```*```,```+``` ,``` -``` 지원 / 혼합하여 사용가능  
 
@@ -108,7 +108,7 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
         * list teset
 
 
-  ### Code
+  ###  Code  
     코드 삽입의 방법은 세가지로 
     1. 들여쓰기 (코드의 시작과 끝에 한줄 비우기!!)
     2. ```<pre><code>{code}</code></pre>``` 사용
@@ -117,7 +117,7 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
 
 
-  ### 수평선 
+  ###  수평선 
     <pre>
       <code>
         * * *
@@ -143,13 +143,13 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
     ---------------------------------------
 
-  ### Link
+  ###  Link
     1. 참조링크 
     2. 외부링크
     3. url 노출 링크
 
 
-  ### emophasis
+  ###  emophasis
     <pre>
       <code>
         *single asterisks*
@@ -169,7 +169,7 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
     ~~cancelline~~
 
 
-  ### Image
+  ###  Image
     <pre>
       <code>
         ![Alt text](/path/to/img.jpg)
@@ -181,12 +181,12 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
     </pre>
 
 
-  ### Table
+  ###  Table
 
     table 생성 사이트 : https://www.tablesgenerator.com/markdown_tables
 
 
-  ### ASCII code 
+  ###  ASCII code 
     특수문자를 변환되지않고 사용하고싶다면 ASCII code로 입력하기 
     http://www.umsiko.co.za/links/specchar.html
 
