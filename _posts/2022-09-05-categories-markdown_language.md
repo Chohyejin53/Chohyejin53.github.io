@@ -17,12 +17,11 @@ last_modified_at: 2022-09-07
 ---
 
 ##  MarkDown Language
-
-Markdown은 텍스트 기반의 마크업언어.
+<p>Markdown은 텍스트 기반의 마크업언어.
 HTML로 변환이 가능.
 github의 README.md의 경우 마크다운언어로 작성되며, 최근 협업도구에서도 많이 사용되고 있음. 
-
 github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정리를 해두는 것이 좋을 것 같다.
+</p>
 
 ##  MarkDown 장점 
 <ol>
@@ -41,7 +40,8 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 ##  MarkDown Language Syntax
 
   ###  Header
-    제목은 <h1> ~ <h6> 까지 "#"의 개수로 표현
+    <p> 제목은 `<h1> ~ <h6>` 까지 "#"의 개수로 표현 </p> 
+
     <pre>
       <code>
         # <h1> 
@@ -55,7 +55,7 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
 
   ###  BlockQuote
-    인용문자는 ```>``` 를 이용 
+    <p>인용문자는 ```>``` 를 이용 </p>
     <pre>
         <code>
             > blockqute test.
@@ -216,3 +216,7 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
       </code>
     </pre>
+
+  ### text-align 
+
+  ##  text-box
