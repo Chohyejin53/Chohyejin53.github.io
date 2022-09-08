@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-09-05
-last_modified_at: 2022-09-07
+last_modified_at: 2022-09-08
 ---
 
 ##  MarkDown Language
@@ -40,25 +40,34 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 ##  MarkDown Language Syntax
 
 ### Header
- 제목은 ```<h1>``` ~ ```<h6>``` 까지 "#"의 개수로 표현
+ - 제목은 ```<h1>``` ~ ```<h6>``` 까지 "#"의 개수로 표현
+ - `=` `-` 사용
 
-    # <h1> 
-    ## <h2>
-    ### <h3>
-    #### <h4>
-    ##### <h5>
-    ###### <h6>     
+        # <h1> 
+        ## <h2>
+        ### <h3>
+        #### <h4>
+        ##### <h5>
+        ###### <h6>     
+
+        h1 text
+        ===
+        h2 text 
+        ----
+    
 
 
 ###  BlockQuote
    인용문자는 ```>``` 를 이용
     
     > blockqute test.
-    >	> blockqute test.
+    >> blockqute test.
+    >>> blockqute test.
 
 ###  List
   - 순서있는 목록 : ```숫자 + .``` 
   - 순서없는 목록 : ```*```,```+``` ,``` -``` 지원 / 혼합하여 사용가능  
+  - 체크박스 : ``` [x] + 텍스트  ``` / ``` [ ] + 텍스트  ```
 
         1. list test
         2. list test
@@ -66,72 +75,120 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
 
         * list test
-          + list test
-            + list test
-              + list test
-        * list test
+          * list test
+            * list test
+        - list test
           - list test
             - list test
-              - list test
-        * list teset
-          * list teset
-            * list teset
-            * list teset
+        + list teset
+          + list teset
+            + list teset
+            + list teset
 
+        - [x] list teset
+        - [x] list teset
+        - [ ] list teset
 
     결과물 :
-    * list test
-      + list test
-        + list test
-          + list test
-    * list test
+       1. list test
+       2. list test
+       3. list teset
+
+
+      * list test
+        * list test
+          * list test
       - list test
         - list test
           - list test
-    * list teset
-      * list teset
-        * list teset
-        * list teset
+      + list teset
+        + list teset
+          + list teset
+          + list teset
+
+      - [x] list teset
+      - [x] list teset
+      - [ ] list teset
 
 
-###  Code  
-  코드 삽입의 방법은 네가지로 분류 
-  1. 들여쓰기 (코드의 시작과 끝에 한줄 비우기!!)
-  2. ` <pre><code>{code}</code></pre>` 사용
-  3. ` ``` ` 사용 (코드블럭)
-  4. ` `` ` 사용 (인라인코드블럭)
+###  Code blocks  
+  ####  코드 인용방법
+  1. 들여쓰기 (※ 코드의 시작과 끝에 한줄 비우기!!)
+  2. ` <pre><code>{code}</code></pre>` 
+  3. ` ~~~ ` 
+  4. ` ``` ` (코드블럭)
+  5. ` `` ` (인라인코드블럭)
 
+  ####  언어에 따른 코드 문법 강조표시 
+  코드에 사용된 언어를 ` ``` ` 바로 뒤에 기입하여 사용 
 
+    ``` javascript
+    const body = document.querySelector("body");
+    
+    const IMG_NUMBER = 5;
+    
+    function randomNumber(){ //랜덤숫자 생성
+      return Math.ceil((Math.random()*IMG_NUMBER));
+    }
 
+    init();
+    
+ 결과물 :  
+  const body = document.querySelector("body");
+
+  const IMG_NUMBER = 5;
+
+  function randomNumber(){ //랜덤숫자 생성
+    return Math.ceil((Math.random()*IMG_NUMBER));
+  }
+
+  init();  
+
+  
 ###  수평선 
    
     * * *
-
     ***
-
     *****
-
     - - -
-
     ---------------------------------------
 
   결과물 :
   * * *
-
   ***
-
   *****
-
   - - -
-
   ---------------------------------------
-
+  
 ###  Link
   
   1. 참조링크 
+      
+    ['naver'](http://www.naver.com/)
+    
+   결과물 : ['naver'](http://www.naver.com/)  
+   
   2. 외부링크
-  3. url 노출 링크
-
+  
+    ['naver'](http://www.naver.com/){: target="_blank" }
+  
+  결과물 : ['naver'](http://www.naver.com/){: target="_blank" }  
+  
+  3. url 링크
+    
+    naver: <http://www.naver.com/>
+  
+  결과물 : naver: <http://www.naver.com/>  
+  
+  4. 내부링크 
+  html 코드의 idf를 통해 내부링크가 사용가능함
+  
+  ``` html
+    <div id="index">목차</div>
+  ```  
+  ```
+    [링크](#id)
+  ``` 
 
 ###  emophasis
 
@@ -161,27 +218,79 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
 
 ###  Table
+  ※ 표 생성시 주의사항   
+    : 앞뒤로 두줄 이상 띄어야 표로 인식함  
+    그렇지 않은 경우에는 텍스트로 인식하여 노출
+  
+  - table 생성 사이트 : https://www.tablesgenerator.com/markdown_tables
 
-  table 생성 사이트 : https://www.tablesgenerator.com/markdown_tables
+#### table text 중앙정렬 
 
+    | 항목 | 가격 | 개수 |
+    |:---:|:----:|:----:|
+    | 사과 | 800원 | 10개 |
+    | 바나나 | 900원 | 5개 |
+    
+  결과물 :  
+  
+  | 항목 | 가격 | 개수 |
+  |:---:|:----:|:----:|
+  | 사과 | 800원 | 10개 |
+  | 바나나 | 900원 | 5개 |
+    
 
-###  ASCII code 
+#### table text 왼쪽 / 중앙 / 오른쪽 정렬 
+
+    | 항목 | 가격 | 개수 |
+    |:----|:----:|-----:|
+    | 사과 | 800원 | 10개 |
+    | 바나나 | 900원 | 5개 |
+    
+  결과물 :  
+  
+  | 항목 | 가격 | 개수 |
+  |:----|:----:|-----:|
+  | 사과 | 800원 | 10개 |
+  | 바나나 | 900원 | 5개 |
+
+###  ASCII code   
   특수문자를 변환되지않고 사용하고싶다면 ASCII code로 입력하기 
-  http://www.umsiko.co.za/links/specchar.html
+  - 참고사이트 : http://www.umsiko.co.za/links/specchar.html
 
-    "(&#34; 또는 &quot;),
-    #(&#35;),
-    %(&#37;),
-    &(&#38; 또는 &amp;),
-    '(&#39;),
-    *(&#42;),
-    <(&#60; 또는 &lt;),
-    >(&#62; 또는 &gt;),
-    _(&#95;),
-    `(&#96;),
-    " "(공백)(&nbsp;)
+        "(&#34; 또는 &quot;),
+        #(&#35;),
+        %(&#37;),
+        &(&#38; 또는 &amp;),
+        '(&#39;),
+        *(&#42;),
+        <(&#60; 또는 &lt;),
+        >(&#62; 또는 &gt;),
+        _(&#95;),
+        `(&#96;),
+        " "(공백)(&nbsp;)
 
 
 ### text-align 
+- `{ text-center }` 가운데 정렬
+- `{ text-left }` 왼쪽 정렬 
+- `{ text-right }` 오른쪽 정렬
 
-####  text-box
+
+
+### 줄바꿈 
+※ 마크다운에서는 Enter 로 줄바꿈이 되지않음.
+
+- `space` X 2번 입력
+- `</br>`
+
+
+### 각주
+- `text + [^id]`
+- `[^id] + text:des`
+
+결과물 :  
+
+- text + [^id]
+- [^id] + text:des
+
+※ github에서는 각주를 지원하지 않음.
