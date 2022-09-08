@@ -80,19 +80,19 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
         - list test
           - list test
             - list test
-        + list teset
-          + list teset
-            + list teset
-            + list teset
+        + list test
+          + list test
+            + list test
+            + list test
 
-        - [x] list teset
-        - [x] list teset
-        - [ ] list teset
+        - [x] list test
+        - [x] list test
+        - [ ] list test
 
     결과물 :
        1. list test
        2. list test
-       3. list teset
+       3. list test
 
 
       * list test
@@ -102,13 +102,13 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
         - list test
           - list test
       + list teset
-        + list teset
-          + list teset
-          + list teset
+        + list test
+          + list test
+          + list test
 
-      - [x] list teset
-      - [x] list teset
-      - [ ] list teset
+      - [x] list test
+      - [x] list test
+      - [ ] list test
 
 
 ###  Code blocks  
@@ -189,6 +189,9 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
   ```
     [링크](#id)
   ``` 
+  
+  결과물:  
+  [[링크](http://www.naver.com/)](#home)
 
 ###  emophasis
 
@@ -226,32 +229,32 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
 #### table text 중앙정렬 
 
-    | 항목 | 가격 | 개수 |
+    | item | list | num |
     |:---:|:----:|:----:|
-    | 사과 | 800원 | 10개 |
-    | 바나나 | 900원 | 5개 |
+    | item | text | 1 |
+    | item | text | 8 |
     
   결과물 :  
   
-  | 항목 | 가격 | 개수 |
+  | item | list | num |
   |:---:|:----:|:----:|
-  | 사과 | 800원 | 10개 |
-  | 바나나 | 900원 | 5개 |
+  | item | text | 1 |
+  | item | text | 8 |
     
 
 #### table text 왼쪽 / 중앙 / 오른쪽 정렬 
 
-    | 항목 | 가격 | 개수 |
+    | item | list | num |
     |:----|:----:|-----:|
-    | 사과 | 800원 | 10개 |
-    | 바나나 | 900원 | 5개 |
+    | item | text | 1 |
+    | item | text | 8 |
     
   결과물 :  
   
-  | 항목 | 가격 | 개수 |
+  | item | list | num |
   |:----|:----:|-----:|
-  | 사과 | 800원 | 10개 |
-  | 바나나 | 900원 | 5개 |
+  | item | text | 1 |
+  | item | text | 8 |
 
 ###  ASCII code   
   특수문자를 변환되지않고 사용하고싶다면 ASCII code로 입력하기 
@@ -290,7 +293,7 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
 결과물 :  
 
-- text + [^id]
-- [^id] + text:des
+- text[^id]
+- [^id]text:des
 
 ※ github에서는 각주를 지원하지 않음.
