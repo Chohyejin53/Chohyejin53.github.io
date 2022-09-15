@@ -69,8 +69,8 @@ last_modified_at: 2022-09-15
    targets (애니메이션을 적용하려는 개체),duration, properties(속성)을 입력하고 재생 헤드가 새 위치로 이동할 때 해당 지점에서 속성 값이 무엇인지 파악하여 그에 따라 적용하는 원리.
 
 
-### Tween을 만드는 방법   
-: (이 모든 방법은 Tween 인스턴스를 반환함) 
+### gsap Methods   
+: Tween을 만드는 방법 (이 모든 방법은 Tween 인스턴스를 반환함) 
 
 1. gsap.to( )
 : 지정한 속성까지(종료 값) 애니메이션 실행
@@ -101,8 +101,8 @@ last_modified_at: 2022-09-15
 ※ [더 많은 예제 보러가기](https://greensock.com/docs/v3/GSAP/gsap.from())
 
 
-### Methods
-
+### Tween Methods
+: 아직 공부못함
 
 
 
@@ -110,6 +110,7 @@ last_modified_at: 2022-09-15
 
 ## Scroll Magic Usage
 
+### 
 ```html
 <script>
 
@@ -153,3 +154,4 @@ last_modified_at: 2022-09-15
 - [greensock](https://greensock.com/) 
 - [스크롤매직라이브러리-nana_log](https://nykim.work/30?category=692676)
 - [Getting Started : How to use ScrollMagic - github](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-How-to-use-ScrollMagic)
+- [맑은 웹퍼블리싱 블로그](https://www.biew.co.kr/entry/TweenMax%E3%86%8DGSAP-%ED%8A%B8%EC%9C%88%EB%A7%A5%EC%8A%A4-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EA%B8%B0-%EA%B8%B0%EC%B4%881GSAP-%EB%A9%94%EC%84%9C%EB%93%9C?category=314309)
