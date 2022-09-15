@@ -42,19 +42,19 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 ### Header
  - 제목은 ```<h1>``` ~ ```<h6>``` 까지 "#"의 개수로 표현
  - `=` `-` 사용
+```html
+# <h1> 
+## <h2>
+### <h3>
+#### <h4>
+##### <h5>
+###### <h6>     
 
-        # <h1> 
-        ## <h2>
-        ### <h3>
-        #### <h4>
-        ##### <h5>
-        ###### <h6>     
-
-        h1 text
-        ===
-        h2 text 
-        ----
-    
+h1 text
+===
+h2 text 
+----
+  ```  
 
 
 ###  BlockQuote
@@ -68,26 +68,28 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
   - 순서있는 목록 : ```숫자 + .``` 
   - 순서없는 목록 : ```*```,```+``` ,``` -``` 지원 / 혼합하여 사용가능  
   - 체크박스 : ``` [x] + 텍스트  ``` / ``` [ ] + 텍스트  ```
+    
+  ```html
+  1. list test
+  2. list test
+  3. list teset
 
-        1. list test
-        2. list test
-        3. list teset
 
+  * list test
+    * list test
+      * list test
+  - list test
+    - list test
+      - list test
+  + list test
+    + list test
+      + list test
+      + list test
 
-        * list test
-          * list test
-            * list test
-        - list test
-          - list test
-            - list test
-        + list test
-          + list test
-            + list test
-            + list test
-
-        - [x] list test
-        - [x] list test
-        - [ ] list test
+  - [x] list test
+  - [x] list test
+  - [ ] list test
+  ```
 
     결과물 :
        1. list test
@@ -122,17 +124,18 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
   ####  언어에 따른 코드 문법 강조표시 
   코드에 사용된 언어를 ` ``` ` 바로 뒤에 기입하여 사용 
 
-    ``` javascript
-    const body = document.querySelector("body");
-    
-    const IMG_NUMBER = 5;
-    
-    function randomNumber(){ //랜덤숫자 생성
-      return Math.ceil((Math.random()*IMG_NUMBER));
-    }
+  ``` javascript
+  const body = document.querySelector("body");
+  
+  const IMG_NUMBER = 5;
+  
+  function randomNumber(){ //랜덤숫자 생성
+    return Math.ceil((Math.random()*IMG_NUMBER));
+  }
 
-    init();
-    
+  init();
+  ```
+
  결과물 :  
   const body = document.querySelector("body");
 
@@ -146,12 +149,13 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
   
 ###  수평선 
-   
-    * * *
-    ***
-    *****
-    - - -
-    ---------------------------------------
+  ``` 
+  * * *
+  ***
+  *****
+  - - -
+  ---------------------------------------
+  ```
 
   결과물 :
   * * *
@@ -195,29 +199,32 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
 
 ###  emophasis
 
-    *single asterisks*
-    _single underscores_
-    **double asterisks**
-    __double underscores__
-    ~~cancelline~~
-      
+  ```html
+  *single asterisks*  
+  _single underscores_  
+  **double asterisks**  
+  __double underscores__  
+  ~~cancelline~~  
+  ```
+
   결과물 :
 
-  *single asterisks*
-  _single underscores_
-  **double asterisks**
-  __double underscores__
-  ~~cancelline~~
+  *single asterisks*  
+  _single underscores_  
+  **double asterisks**  
+  __double underscores__  
+  ~~cancelline~~  
 
 
 ###  Image
-   
-    ![Alt text](/path/to/img.jpg)
-    ![Alt text](/path/to/img.jpg "Optional title")
 
-    <img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
-    <img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
-     
+``` 
+![Alt text](/path/to/img.jpg)
+![Alt text](/path/to/img.jpg "Optional title")
+
+<img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+  ```
 
 
 ###  Table
@@ -228,27 +235,27 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
   - table 생성 사이트 : https://www.tablesgenerator.com/markdown_tables
 
 #### table text 중앙정렬 
+```
+| item | list | num |
+|:---:|:----:|:----:|
+| item | text | 1 |
+| item | text | 8 |
+```
+결과물 :  
 
-    | item | list | num |
-    |:---:|:----:|:----:|
-    | item | text | 1 |
-    | item | text | 8 |
-    
-  결과물 :  
-  
-  | item | list | num |
-  |:---:|:----:|:----:|
-  | item | text | 1 |
-  | item | text | 8 |
-    
+| item | list | num |
+|:---:|:----:|:----:|
+| item | text | 1 |
+| item | text | 8 |
+
 
 #### table text 왼쪽 / 중앙 / 오른쪽 정렬 
-
-    | item | list | num |
-    |:----|:----:|-----:|
-    | item | text | 1 |
-    | item | text | 8 |
-    
+```
+| item | list | num |
+|:----|:----:|-----:|
+| item | text | 1 |
+| item | text | 8 |
+```
   결과물 :  
   
   | item | list | num |
@@ -260,18 +267,19 @@ github blog와 Readme 파일을 작성할 때 많이 사용되기 때문에 정�
   특수문자를 변환되지않고 사용하고싶다면 ASCII code로 입력하기 
   - 참고사이트 : http://www.umsiko.co.za/links/specchar.html
 
-        "(&#34; 또는 &quot;),
-        #(&#35;),
-        %(&#37;),
-        &(&#38; 또는 &amp;),
-        '(&#39;),
-        *(&#42;),
-        <(&#60; 또는 &lt;),
-        >(&#62; 또는 &gt;),
-        _(&#95;),
-        `(&#96;),
-        " "(공백)(&nbsp;)
-
+```
+  "(&#34; 또는 &quot;),
+  #(&#35;),
+  %(&#37;),
+  &(&#38; 또는 &amp;),
+  '(&#39;),
+  *(&#42;),
+  <(&#60; 또는 &lt;),
+  >(&#62; 또는 &gt;),
+  _(&#95;),
+  `(&#96;),
+  " "(공백)(&nbsp;)
+```
 
 ### text-align 
 - `{ text-center }` 가운데 정렬
