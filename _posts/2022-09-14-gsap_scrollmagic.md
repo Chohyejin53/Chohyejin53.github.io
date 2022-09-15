@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-09-14
-last_modified_at: 2022-09-14
+last_modified_at: 2022-09-15
 ---
 
 ## GSAP
@@ -35,17 +35,28 @@ last_modified_at: 2022-09-14
  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
 ```
 
-### Download
-https://greensock.com/docs/v3/Installation/#npm-club
-
-### npm install
-
 스크립트 순서대로 cdn 경로 입력해주기
 1. 제이쿼리 cdn 경로 
 2. 스크롤매직 플러그인 cdn 경로
 3. 브라우저에 인디케이터 가이드 표현
 4. GSAP 중 TweenMax 플러그인 cdn 경로
 5. 에니메이션 구현을 위한 GSAP 
+
+
+### Download
+['GSAP Installation-download'](https://greensock.com/docs/v3/Installation/download)  
+
+1. zip 파일 설치 
+2. html에 경로 입력 
+```html
+<script src = "/[YOUR_DIRECTORY]/gsap.min.js" ></script> 
+```
+
+
+
+### npm install
+['GSAP Installation-npm'](https://greensock.com/docs/v3/Installation/#npm-club) 에서 설치 방법 확인하기 
+
 
 ## Option
 
@@ -88,7 +99,6 @@ http://scrollmagic.io/examples/index.html
 
 
 ## 참고
-https://frontdev.tistory.com/entry/Greensock-GreenSock-ScrollTrigger-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8
-https://frontdev.tistory.com/entry/Greensock-GreenSock-ScrollTrigger-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8
-https://nykim.work/30?category=692676
-https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-How-to-use-ScrollMagic
+- ['greensock'](https://greensock.com/) 
+- ['스크롤매직라이브러리-nana_log'](https://nykim.work/30?category=692676)
+- ['Getting Started : How to use ScrollMagic - github'](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-How-to-use-ScrollMagic)

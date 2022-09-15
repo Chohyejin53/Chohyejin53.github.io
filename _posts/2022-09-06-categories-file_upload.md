@@ -18,13 +18,13 @@ last_modified_at: 2022-09-06
 
 ## JQuery를 활용한 파일 업로드 UI 
 
-사용된 문법 
-.val() 
-	: 양식(form)의 값을 가져오거나 값을 설정하는 메소드
+### 사용된 문법 
+- .val() 
+  : 양식(form)의 값을 가져오거나 값을 설정하는 메소드
 
 
 
-주의할 점 : JQuery를 사용하기때문에 잊지않고 script에 cdn방식으로 jqeury삽입할 것 
+※ 주의할 점 : JQuery를 사용하기때문에 잊지않고 script에 cdn방식으로 jqeury삽입할 것 
 
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="NWMqeJV" data-user="Chohyejin53" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
