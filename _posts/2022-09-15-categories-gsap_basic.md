@@ -1,13 +1,13 @@
 ---
-title: "[JQuery] GSAP"
+title: "[Javascript] GSAP"
 excerpt: ""
 
 categories:
- - JQuery
+ - Javascript
 tags:
-  - [JQuery, GSAP]
+  - [Javascript, GSAP]
 
-permalink: /JQuery/gsap_scrollmagic/
+permalink: /Javascript/gsap_basic/
 
 toc: true
 toc_sticky: true
@@ -18,7 +18,7 @@ last_modified_at: 2022-09-15
 
 
 ## GSAP
-- GrennSock에서 만든 자바스크립트 애니메이션 라이브러리.  
+- GrennSock에서 만든 **자바스크립트 애니메이션 라이브러리**.  
 - 일반적인 애니메이션 효과는 CSS나 제이쿼리를 통해 처리하지만, 더 복잡하고 정교한 애니메이션 구현을 위해 GSAP을 사용함.  
 - GSAP는 제이쿼리보다 20배 이상 퍼포먼스가 좋다고 알려져 훨씬 디테일한 애니메이션 작업이 가능함.
 - 유료 라이브러리이나, 일부 무료 플러그인을 지원  
