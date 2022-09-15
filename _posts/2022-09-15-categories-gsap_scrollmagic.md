@@ -1,13 +1,13 @@
 ---
-title: "[JQuery] GSAP을 이용한 Scroll Magic"
+title: "[Javascript] GSAP을 이용한 Scroll Magic"
 excerpt: ""
 
 categories:
-  - JQuery
+  - Javascript
 tags:
-  - [JQuery, GSAP, scroll-event]
+  - [Javascript, GSAP, scroll-event]
 
-permalink: /JQuery/gsap_scrollmagic/
+permalink: /Javascript/gsap_scrollmagic/
 
 toc: true
 toc_sticky: true
@@ -17,7 +17,7 @@ last_modified_at: 2022-09-15
 ---
 
 ## GSAP
-- GrennSock에서 만든 자바스크립트 애니메이션 라이브러리.  
+- GrennSock에서 만든 **자바스크립트 애니메이션 라이브러리**.  
 
 ## Scroll Magic
 : 스크롤 이벤트를 활용하기에 좋은 라이브러리로 스크롤이벤트보다 간편하게 다양한 모션을 적용할 수 있음
