@@ -26,6 +26,7 @@ last_modified_at: 2022-09-14
 
 ## Setting
 
+### CDN
 ```html
  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
@@ -34,6 +35,11 @@ last_modified_at: 2022-09-14
  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
 ```
 
+### Download
+https://greensock.com/docs/v3/Installation/#npm-club
+
+### npm install
+
 스크립트 순서대로 cdn 경로 입력해주기
 1. 제이쿼리 cdn 경로 
 2. 스크롤매직 플러그인 cdn 경로
@@ -41,7 +47,7 @@ last_modified_at: 2022-09-14
 4. GSAP 중 TweenMax 플러그인 cdn 경로
 5. 에니메이션 구현을 위한 GSAP 
 
-## GSAP 옵
+## Option
 
 ```
 <script>
@@ -75,13 +81,13 @@ last_modified_at: 2022-09-14
     }())
 ```
 
-## GSAP 예제
+## Example
 http://scrollmagic.io/examples/index.html
 
 
 
 
-## 참고 페이지
+## 참고
 https://frontdev.tistory.com/entry/Greensock-GreenSock-ScrollTrigger-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8
 https://frontdev.tistory.com/entry/Greensock-GreenSock-ScrollTrigger-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8
 https://nykim.work/30?category=692676
