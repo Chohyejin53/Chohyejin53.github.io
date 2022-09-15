@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-09-05
-last_modified_at: 2022-09-08
+last_modified_at: 2022-09-15
 ---
 
 ##  MarkDown Language
@@ -91,26 +91,26 @@ h2 text
   - [ ] list test
   ```
 
-    결과물 :
-       1. list test
-       2. list test
-       3. list test
+결과물 :
+   1. list test
+   2. list test
+   3. list test
 
 
+  * list test
+    * list test
       * list test
-        * list test
-          * list test
+  - list test
+    - list test
       - list test
-        - list test
-          - list test
-      + list teset
-        + list test
-          + list test
-          + list test
+  + list teset
+    + list test
+      + list test
+      + list test
 
-      - [x] list test
-      - [x] list test
-      - [ ] list test
+  - [x] list test
+  - [x] list test
+  - [ ] list test
 
 
 ###  Code blocks  
@@ -197,7 +197,7 @@ h2 text
   결과물:  
   [[링크](http://www.naver.com/)](#home)
 
-###  emophasis
+###  emphasis
 
   ```html
   *single asterisks*  
