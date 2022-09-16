@@ -59,6 +59,19 @@ last_modified_at: 2022-09-15
   고성능 속성 설정기라고 생각할 것.
    targets (애니메이션을 적용하려는 개체),duration, properties(속성)을 입력하고 재생 헤드가 새 위치로 이동할 때 해당 지점에서 속성 값이 무엇인지 파악하여 그에 따라 적용하는 원리.
 
+## Syntax  
+```Javascript
+gsap.to(".box", {x:200}) 
+     |     |        |
+ method  target    variables
+```
+
+- The target (or targets)
+: 애니메이션을 적용하려는 개체 
+
+- 
+
+
 
 ## Methods   
 : Tween을 만드는 방법 (이 모든 방법은 Tween 인스턴스를 반환함) 
