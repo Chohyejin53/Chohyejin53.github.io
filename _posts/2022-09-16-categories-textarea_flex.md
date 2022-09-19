@@ -5,7 +5,7 @@ excerpt: ""
 categories:
   - JQuery
 tags:
-  - [JQuery, textarea]
+  - [HTML/CSS, JQuery]
 
 permalink: /JQuery/textarea_flex/
 
