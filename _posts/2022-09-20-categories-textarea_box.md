@@ -20,7 +20,7 @@ last_modified_at: 2022-09-20
 
 ### method
 
-
+###Note
 
 ### view
 <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="xxjdLPg" data-user="DDol" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
