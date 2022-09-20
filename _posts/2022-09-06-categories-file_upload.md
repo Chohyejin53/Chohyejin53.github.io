@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-09-06
-last_modified_at: 2022-09-06
+last_modified_at: 2022-09-20
 ---
 
 ## 파일 업로드 UI 
@@ -23,10 +23,10 @@ last_modified_at: 2022-09-06
   : 양식(form)의 값을 가져오거나 값을 설정하는 메소드
 
 
+### Note
+※ JQuery를 사용하기때문에 잊지않고 script에 cdn방식으로 jqeury삽입할 것 
 
-※ 주의할 점 : JQuery를 사용하기때문에 잊지않고 script에 cdn방식으로 jqeury삽입할 것 
-
-
+### View
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="NWMqeJV" data-user="Chohyejin53" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/Chohyejin53/pen/NWMqeJV">
   Untitled</a> by Chohyejin (<a href="https://codepen.io/Chohyejin53">@Chohyejin53</a>)
