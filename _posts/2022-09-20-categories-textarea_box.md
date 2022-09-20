@@ -17,51 +17,70 @@ last_modified_at: 2022-09-20
 ---
 
 ## 입력값에 따라 높이 자동 조절되는 textarea 
+입력 값에 따라 글자를 카운트 하여 100자 이내의 텍스트만 입력가능하고, 텍스트영역이 한줄에서 여러줄로 가변되는 UI 구현.
+
 
 ### method
-- .val(); 
-  : 양식(form)의 값을 가져오거나 값을 설정하는 메소드
 
-- this 
+#### this 
+: 
+  
+#### height();  / scrollHeight(); 
+: 
+  
+#### .css();  
+: 
+ 
+#### .on(); 
+: 
+ 
+#### .change();  
+: 
+  
+#### .keyup(); / .keydown(); 
+- .keyup();  
   : 
+- .keydown();  
+  :  
   
-- height / scrollHeight
-  : 
+#### .paste(); 
+: 
   
-- .css 
-  :
+#### .cut(); 
+: 
+  
+#### .html(); 
+: 선택한 요소 안의 내용을 가져오거나, 다른 내용으로 수정
++ (참고) 
+    = .text()와 비슷하지만 태그의 처리에 차이가 있음
+
+```javascript
+
+var test = $( 'h1' ).html(); // <h1> 요소의 내용을 test 변수에 저장
+.html( htmlString ) // htmlString로 텍스트 내용 수정
+
+```
+
+#### .val(); 
+: 양식(textarea)의 값을 가져오거나 값을 설정하는 메소드
  
-- .on
-  :
+#### .length(); 
+: 선택한 요소의 개수를 반환
  
-- .change 
-  :
-  
-- .keydown / .keyup 
-  :
-  
-- .paste
-  :
-  
-- .cut
-  :
-  
-- .html
-  :
- 
-- .length
-  :
- 
-- .substring();
+#### .substring();
   + 문자열에서 기준없이 사용하고 싶은 문자열을 가져오고 싶을 때 사용하는 메소드
   + 시작 인덱스에서부터 끝 인덱스의 하나 전 인덱스까지 가져옴
-  + (참고) 문자열을 가져오는 다른 메소드 : split / substr
+  + (참고) 
+    = html에서 textareadml maxlenth 속성을 사용하여 글자 수를 제한하는 방법도 있음
+    = 문자열을 가져오는 다른 메소드 : split / substr  
+    
+```Javascript
+
+.class.substring(0,10); // 0번째에서 시작하여 10번째 전(9)까지 (0 : 시작 인덱스 , 10 : 마지막 인덱스)
+
+```
   
-  ```Javascript
-  .class.substring(0,10) // 0번째에서 시작하여 10번째 전(9)까지 (0 : 시작 인덱스 , 10 : 마지막 인덱스)
-  ```
-  
-### view
+### View
 <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="xxjdLPg" data-user="DDol" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/DDol/pen/xxjdLPg">
   Untitled</a> by DDol (<a href="https://codepen.io/DDol">@DDol</a>)
@@ -69,5 +88,6 @@ last_modified_at: 2022-09-20
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-###Note
+### Note
 - max-height 를 반드시 넣어주어야함.(height 값을 기준으로 영역이 더 커지지 못하게 하기 때문)
+- textarea에 'resize: none;'을 넣어주어 사이즈 조절 방지 
