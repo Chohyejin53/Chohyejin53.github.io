@@ -20,7 +20,7 @@ last_modified_at: 2022-09-20
 입력 값에 따라 글자를 카운트 하여 100자 이내의 텍스트만 입력가능하고, 텍스트영역이 한줄에서 여러줄로 가변되는 UI 구현.
 
 
-### method
+### method / event
 
 #### this 
 : 
@@ -29,25 +29,32 @@ last_modified_at: 2022-09-20
 : 
   
 #### .css();  
-: 
+: 선택한 요소의 css 속성값을 가져오거나 style 속성 추가
+
+```javascript
+
+$( ".textarea_box" ).css( "background-color" ); // .textarea_box의 background-color 속성값을 가져옴
+$( ".textarea_box" ).css( "background-color", "green" ); // .textarea_box의 background-color 속성 값을 추가하여 스타일 변경
+
+```
  
 #### .on(); 
 : 
  
 #### .change();  
-: 
+: 요소 변경이 끝난 후 발생, 텍스트 입력 요소인 경우에는 요소 변경이 끝날 때가 아니라 포커스를 잃을 때 이벤트 발생
   
 #### .keyup(); / .keydown(); 
 - .keyup();  
-  : 
+  : 키보드를 누른 이후에 실행
 - .keydown();  
-  :  
+  :  키보드를 눌렀을 때 실행 (누르고 있는 한번만 실행)
   
-#### .paste(); 
-: 
++ (참고) 관련 키보드 이벤트 : .keypress (키보드를 눌렀을 때 실행, 키보드를 누르고 있을떄 계속해서 실행)
   
-#### .cut(); 
-: 
+#### .cut(); / .paste();
+: 각각 값을 잘라내기, 붙여넣기 할 때 발생하는 이벤트
+  
   
 #### .html(); 
 : 선택한 요소 안의 내용을 가져오거나, 다른 내용으로 수정
@@ -76,7 +83,8 @@ var test = $( 'h1' ).html(); // <h1> 요소의 내용을 test 변수에 저장
     
 ```Javascript
 
-.class.substring(0,10); // 0번째에서 시작하여 10번째 전(9)까지 (0 : 시작 인덱스 , 10 : 마지막 인덱스)
+.class.substring(0,10); // 0번째에서 시작하여 10번째 전(9)까지 
+                        // (0 : 시작 인덱스 , 10 : 마지막 인덱스)
 
 ```
   
