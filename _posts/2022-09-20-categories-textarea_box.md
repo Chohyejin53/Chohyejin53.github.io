@@ -23,11 +23,17 @@ last_modified_at: 2022-09-20
 ### method / event
 
 #### this 
-: 
+: 변수, 선택자의 역할을 함
   
-#### height();  / scrollHeight(); 
-: 
+#### height();  
+: 요소의 높이 값을 반환
+
+#### scrollHeight(); 
+: scroll되어 나타나는 부분까지 높이 값 반환
   
+ ※ height/innerHeight 와 scrollHeight와 차이
+ : height/innerHeight는 가시화면에 해당하는 높이 값을 반환하지만, scrollHeight는 스크롤되어 나타는 영역, 즉 overflow: scroll / overflow-y: auto 처리되는 부분까지의 높이를 반환함
+ 
 #### .css();  
 : 선택한 요소의 css 속성값을 가져오거나 style 속성 추가
 
@@ -52,22 +58,19 @@ $( ".textarea_box" ).css( "background-color", "green" ); // .textarea_box의 bac
   ```
 - 이벤트 핸들러 하나에 여러 이벤트 설정  
   
-```javascript
+  ```javascript
 
-$("p").on("mouseenter mouseleave", function() {
-$("div").append("마우스 커서가 문장 위로 들어오거나 빠져 나갔습니다.<br>");
-});
-
-```
+  $("p").on("change keydown keyup", function() {  // change keydown keyup 의 요소변경 이후에 이벤트 발생
+  });
+  
+  ```
 
 - 특징
-1. 선택한 요소에 어떤 타입의 이벤트라도 연결할 수 있다.
-2. 하나의 이벤트 핸들러에 여러 개의 이벤트를 동시에 연결할 수 있다.
-3. 선택한 요소에 여러 개의 이벤트 핸들러와 여러 개의 이벤트를 같이 연결할 수 있다.
-4. 사용자 지정 이벤트(custom event)를 위해 이벤트 핸들러로 데이터를 넘길 수 있다.
-5. 차후에 다루게 될 요소를 이벤트에 바인딩할 수 있다.
-
-
+1. 선택한 요소에 모든 타입의 이벤트 연결 가능
+2. 하나의 이벤트 핸들러에 여러 개의 이벤트를 동시에 연결 가능
+3. 선택한 요소에 여러 개의 이벤트 핸들러와 여러 개의 이벤트를 같이 연결 가능
+4. 사용자 지정 이벤트(custom event)를 위해 이벤트 핸들러로 데이터를 넘길 수 있음
+5. 차후에 다루게 될 요소를 이벤트에 바인딩 가능
 
 + (참고) 관련 이벤트 바인딩 메소드 : .off() / .one() 
 
@@ -88,6 +91,7 @@ $("div").append("마우스 커서가 문장 위로 들어오거나 빠져 나갔
   
 #### .html(); 
 : 선택한 요소 안의 내용을 가져오거나, 다른 내용으로 수정
+
 + (참고) 
     = .text()와 비슷하지만 태그의 처리에 차이가 있음
 
@@ -129,3 +133,7 @@ var test = $( 'h1' ).html(); // <h1> 요소의 내용을 test 변수에 저장
 ### Note
 - max-height 를 반드시 넣어주어야함.(height 값을 기준으로 영역이 더 커지지 못하게 하기 때문)
 - textarea에 'resize: none;'을 넣어주어 사이즈 조절 방지 
+
+### 참고
+- http://daplus.net/jquery-overflow-hidden-%EB%98%90%EB%8A%94-overflow-scroll-div%EC%9D%98-%EC%8B%A4%EC%A0%9C-height-%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%96%BB%EC%8A%B5%EB%8B%88%EA%B9%8C/
+- https://wonjuman.tistory.com/20
