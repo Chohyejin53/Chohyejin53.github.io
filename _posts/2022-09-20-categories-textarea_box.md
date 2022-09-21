@@ -25,11 +25,12 @@ last_modified_at: 2022-09-20
 #### this 
 : 변수, 선택자의 역할을 함
   
-#### height();  
-: 요소의 높이 값을 반환
+#### height(); / scrollHeight(); 
+- height();
+  : 요소의 높이 값을 반환
 
-#### scrollHeight(); 
-: scroll되어 나타나는 부분까지 높이 값 반환
+- scrollHeight(); 
+  : scroll되어 나타나는 부분까지 높이 값 반환
   
  ※ height/innerHeight 와 scrollHeight와 차이
  : height/innerHeight는 가시화면에 해당하는 높이 값을 반환하지만, scrollHeight는 스크롤되어 나타는 영역, 즉 overflow: scroll / overflow-y: auto 처리되는 부분까지의 높이를 반환함
