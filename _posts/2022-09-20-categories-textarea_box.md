@@ -132,6 +132,11 @@ var test = $( 'h1' ).html(); // <h1> 요소의 내용을 test 변수에 저장
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Note
+- 구현한 부분의 3가지 핵심
+  1. 텍스트 입력 양에 따라 1-3줄 가변
+  2. 3줄이 넘어갈 때, scroll 생성
+  3. 글자수 100자 제한  
+    
 - max-height 를 반드시 넣어주어야함.(height 값을 기준으로 영역이 더 커지지 못하게 하기 때문)
 - textarea에 'resize: none;'을 넣어주어 사이즈 조절 방지 
 
