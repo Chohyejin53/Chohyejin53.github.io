@@ -6,6 +6,17 @@ nvm버전을 올리지않고 냅다 npm install npm i -g npm@latest 실행함 (�
 
 이 과정에서 node였나 npm의 뭐가 설정이 바뀜 
 
+** 오류 문구 
+
+```
+ERRER: npm is known not to run on Node.js v10.16.1
+You'11 need to upgrade to a newer Node.js v10.16.1
+version of npm. You can find the latest version at https://nodejs.org/
+nvm is np compatible with the npm config "prefix" option: currently set to ""
+Run `npm config delete prefix` or `nvm use --delete-prefix v10.16.1 --silent` to unset it.
+```
+
+
 
 해결방법 
 delete prefix 입력 이후 이래 링크에서 
