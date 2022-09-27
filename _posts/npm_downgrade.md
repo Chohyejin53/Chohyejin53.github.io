@@ -68,6 +68,13 @@ alias default 명령어도 실행됨!!
 nvm default로 맞춰주고 버전 맞춘다음 실행함!
 
 
+
+
+추가 
+Mac 터미널 단축키 정리
+https://support.apple.com/ko-kr/guide/terminal/trmlshtcts/mac
+
+
 https://brtech.tistory.com/124
 
 https://www.google.com/search?q=zsh%3A+command+not+found%3A+gulp&sxsrf=ALiCzsZyHPn3rWBs4-jJsdRj3LF2IBAkOw%3A1663747856155&ei=EMcqY9-CCbzQ2roP3aySuAQ&ved=0ahUKEwjfytjft6X6AhU8qFYBHV2WBEcQ4dUDCA4&uact=5&oq=zsh%3A+command+not+found%3A+gulp&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgQIABAeOgoIABBHENYEELADSgQIQRgASgQIRhgAUNEDWNEDYKsGaAFwAXgAgAHYAYgB2AGSAQMyLTGYAQCgAQKgAQHIAQrAAQE&sclient=gws-wiz
