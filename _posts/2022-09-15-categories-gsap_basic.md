@@ -114,10 +114,10 @@ gsap.to(".box", {x:200})
 ※ [더 많은 Methods 보러가기](https://greensock.com/docs/v3/GSAP/gsap.from())
 
 
-## 활용
+## application
 : gsap의 애니메이션은 원하는 속도로 원하는만큼 지정한 시간동안 실행시킬 수 있음. 이 과정이 쉽게 제어되기 때문에, 다양한 스크롤이벤트와 함께 적용하여 다양한 인터렉션을 구현할 수 있음
 
-## 참고
+## Reference
 - [greensock docs](https://greensock.com/)
 - [Getting Started : How to use ScrollMagic - github](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-How-to-use-ScrollMagic)
 - [맑은 웹퍼블리싱 블로그](https://www.biew.co.kr/entry/TweenMax%E3%86%8DGSAP-%ED%8A%B8%EC%9C%88%EB%A7%A5%EC%8A%A4-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EA%B8%B0-%EA%B8%B0%EC%B4%881GSAP-%EB%A9%94%EC%84%9C%EB%93%9C?category=314309)
