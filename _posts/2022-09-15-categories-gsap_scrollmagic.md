@@ -101,7 +101,7 @@ last_modified_at: 2022-09-15
 
 
 
-## 참고
+## Reference
 - [greensock](https://greensock.com/) 
 - [스크롤매직라이브러리-nana_log](https://nykim.work/30?category=692676)
 - [Getting Started : How to use ScrollMagic - github](https://github.com/janpaepke/ScrollMagic/wiki/Getting-Started-:-How-to-use-ScrollMagic)
