@@ -1,13 +1,13 @@
 ---
-title: "[HTML & CSS & SCSS] 입력값에 따라 높이 자동 조절되는 textarea"
+title: "[HTML&CSS&SCSS] 입력값에 따라 높이 자동 조절되는 textarea"
 excerpt: ""
 
 categories:
-  - HTML & CSS & SCSS
+  - HTML&CSS&SCSS
 tags:
   - [HTML/CSS]
 
-permalink: /HTML & CSS & SCSS/attribute_selectors/
+permalink: /HTML&CSS&SCSS/attribute_selectors/
 
 toc: true
 toc_sticky: true
