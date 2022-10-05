@@ -140,6 +140,6 @@ var test = $( 'h1' ).html(); // <h1> 요소의 내용을 test 변수에 저장
 - max-height 를 반드시 넣어주어야함.(height 값을 기준으로 영역이 더 커지지 못하게 하기 때문)
 - textarea에 'resize: none;'을 넣어주어 사이즈 조절 방지 
 
-### 참고
+### Reference
 - http://daplus.net/jquery-overflow-hidden-%EB%98%90%EB%8A%94-overflow-scroll-div%EC%9D%98-%EC%8B%A4%EC%A0%9C-height-%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%96%BB%EC%8A%B5%EB%8B%88%EA%B9%8C/
 - https://wonjuman.tistory.com/20
