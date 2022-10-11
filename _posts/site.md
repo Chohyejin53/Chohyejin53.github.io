@@ -9,3 +9,6 @@ https://goddino.tistory.com/181
 
 - vw px 변환 
 https://web-development.space/tools/px-to-vw/ 
+
+- 비율에 맞게 가변되기 
+https://jocoma.tistory.com/entry/%EA%B0%80%EB%B3%80-%EA%B7%B8%EB%A6%AC%EB%93%9C
