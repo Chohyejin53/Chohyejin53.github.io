@@ -1,5 +1,5 @@
 ---
-title: "[HTML&CSS&SCSS] 입력값에 따라 높이 자동 조절되는 textarea"
+title: "[HTML&CSS&SCSS] CSS 속성선택자 심화"
 excerpt: ""
 
 categories:
