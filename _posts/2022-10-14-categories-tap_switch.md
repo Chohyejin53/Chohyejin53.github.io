@@ -56,3 +56,4 @@ last_modified_at: 2022-10-14
 4. **클릭하여 받아온 인덱스 값에 해당하는 탭만 활성화 클래스 추가해주기**
 
 ### Reference
+- https://poiemaweb.com/es6-block-scope
