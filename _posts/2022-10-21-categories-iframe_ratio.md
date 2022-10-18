@@ -12,14 +12,14 @@ permalink: /HTML&CSS&SCSS/iframe_ratio/
 toc: true
 toc_sticky: true
 
-date: 2022-10-21
-last_modified_at: 2022-10-21
+date: 2022-10-18
+last_modified_at: 2022-10-18
 ---
 
 ## 비율에 맞추어 크기 조절되는 iframe UI 
 
 ### style
-```
+```sass
 .wrap {
             margin: 0 auto;
             min-width: 320px;
