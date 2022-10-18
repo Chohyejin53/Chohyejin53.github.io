@@ -19,7 +19,41 @@ last_modified_at: 2022-10-21
 ## 비율에 맞추어 크기 조절되는 iframe UI 
 
 ### style
+```
+.wrap {
+            margin: 0 auto;
+            min-width: 320px;
+            max-width: 750px;
+        }
+        .video_wrap {
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+            max-width: 750px;
+        }
+        .video_box {
+            overflow: hidden; /*비디오 컨텐츠가 넘치는 부분은 잘려나감*/
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-color: #32e664;
+            padding-top: 56.25%; /* 부모요소 너비를 기준으로 높이 지정*/
+            /* 
+            다른  비율 계산 16:9가 아닐 경우, 
+            사이즈에 맞게 비율을 조정하는 경우에는 calc로 계산 공식을 입력합니다. 
+            padding-top {
+                calc(세로/가로)*100
+            };
+            */
+        }
 
+        .video_box iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+        }
+```
 #### 참고
   
 ### View 
