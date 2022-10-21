@@ -51,28 +51,24 @@ nvm ls
 ### 해결방법 
 
 1. delete prefix 입력 이후 이래 코드 입력해준다.
+  ```
+  mkdir ~/.npm-global
+  npm config set prefix '~/.npm-global'
+  ```
 
-```
-mkdir ~/.npm-global
-npm config set prefix '~/.npm-global'
-```
+  ```
+  vi ~/.profile
+  ```
 
-
-```
-vi ~/.profile
-```
 2. profile 제일 하단에 다음 코드를 추가한다.
-
-
-```
-export PATH=~/.npm-global/bin:$PATH
-```
+  ```
+  export PATH=~/.npm-global/bin:$PATH
+  ```
 
 3. :wq 저장 후 변경된 프로필 내용을 적용 해준다.
-
-```
-source ~/.profile
-```
+  ```
+  source ~/.profile
+  ```
 
 4. 끝 
 
@@ -86,13 +82,6 @@ npm 버전이 맞으니
 alias default 명령어도 실행됨!! 
 
 nvm default로 맞춰주고 버전 맞춘다음 실행함!
-
-
-
-
-### 추가 
-Mac 터미널 단축키 정리
-https://support.apple.com/ko-kr/guide/terminal/trmlshtcts/mac
 
 
 ### Reference

@@ -1,13 +1,13 @@
 ---
-title: "[Javascript] GSAP"
+title: "[JQuery] GSAP"
 excerpt: ""
 
 categories:
- - Javascript
+ - JQuery
 tags:
-  - [Javascript, GSAP]
+  - [JQuery, GSAP]
 
-permalink: /Javascript/gsap_basic/
+permalink: /JQuery/gsap_basic/
 
 toc: true
 toc_sticky: true

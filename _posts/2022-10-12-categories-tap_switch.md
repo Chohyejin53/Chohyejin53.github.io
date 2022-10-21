@@ -77,7 +77,7 @@ last_modified_at: 2022-10-21
   <span>See the Pen <a href="https://codepen.io/DDol/pen/GRdwLvp">
   tap_switch</a> by DDol (<a href="https://codepen.io/DDol">@DDol</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
