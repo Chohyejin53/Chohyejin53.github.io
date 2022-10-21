@@ -12,8 +12,8 @@ permalink: /JQuery/tap_switch/
 toc: true
 toc_sticky: true
 
-date: 2022-10-12
-last_modified_at: 2022-10-18
+date: 2022-10-21
+last_modified_at: 2022-10-21
 ---
 
 ## Tap 전환 UI
@@ -68,7 +68,7 @@ last_modified_at: 2022-10-18
   <span>See the Pen <a href="https://codepen.io/DDol/pen/WNJWBXo">
   Untitled</a> by DDol (<a href="https://codepen.io/DDol">@DDol</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+  </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
   
 ### View 
