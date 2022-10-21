@@ -64,12 +64,12 @@ last_modified_at: 2022-10-21
   - :gt()  
     지정된 숫자보다 인덱스 번호가 큰 요소둘울 반환하는 셀렉터
   - .eq() / :lt() / :gt() 비교  
-    <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="WNJWBXo" data-user="DDol" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNJWBXo" data-user="DDol" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/DDol/pen/WNJWBXo">
-  Untitled</a> by DDol (<a href="https://codepen.io/DDol">@DDol</a>)
+  .eq() / :lt() / :gt()</a> by DDol (<a href="https://codepen.io/DDol">@DDol</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
   </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
   
 ### View 
 
