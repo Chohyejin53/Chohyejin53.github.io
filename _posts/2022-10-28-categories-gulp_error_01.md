@@ -41,15 +41,15 @@ gulp를 찾을 수 없다는 에러가 나왔다.
   ```
   npm i gulp-cli--save--dev
   ```
-   > **gulp-cli**  
+  > **gulp-cli**  
     Gulp를 콘솔에서 편리하게 실행할 수 있게 해주는 유틸리티 도구
       
-   > **--save--dev**  
+  > **--save--dev**  
     `npm install [모듈이름] --save`  
-    : package.json에는 설치한 모듈과 버전이 기록 (=dependencies 항목 : 프로젝트에 연관된 모듈들의 목록을 포함) 
-  >> `v--save`과 `--save--dev`옵션의 차이  
-    : 제품의 릴리즈나 구동시 꼭 필요한 모듈의 경우 --save 옵션 사용 / dependencies 항목에 기록  
-      제품의 개발시에 테스트를 위해서 필요 && 실제 릴리즈시에는 필요없는 모듈의 경우 --save-dev 옵션 /  devDependencies 항목에 기록
+    : package.json에는 설치한 모듈과 버전이 기록 (=dependencies 항목 : 프로젝트에 연관된 모듈들의 목록을 포함)  
+    `v--save` 과 `--save--dev` 옵션의 차이  
+    : 제품의 릴리즈나 구동시 꼭 필요한 모듈의 경우 --save 옵션 사용 | dependencies 항목에 기록  
+      제품의 개발시에 테스트를 위해서 필요 && 실제 릴리즈시에는 필요없는 모듈의 경우 --save-dev 옵션 |  devDependencies 항목에 기록
   
 2. 그리고 나서 다음과 같은 명령어가 출력된다.   
    CLI 버전이 2.3.0 으로 설치된 것을 확인할 수있다.  
