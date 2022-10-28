@@ -41,10 +41,10 @@ gulp를 찾을 수 없다는 에러가 나왔다.
   ```
   npm i gulp-cli--save--dev
   ```
-  > **gulp-cli**  
+   > **gulp-cli**  
     Gulp를 콘솔에서 편리하게 실행할 수 있게 해주는 유틸리티 도구
       
-  > **--save--dev**  
+   > **--save--dev**  
     `npm install [모듈이름] --save`  
     : package.json에는 설치한 모듈과 버전이 기록 (=dependencies 항목 : 프로젝트에 연관된 모듈들의 목록을 포함)  
     `v--save` 과 `--save--dev` 옵션의 차이  
