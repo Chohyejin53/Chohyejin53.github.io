@@ -21,7 +21,7 @@ last_modified_at: 2022-11-04
 불필요한 코드를 줄여 유지보수에 훨씬 유리하다.
 
 ### style
-```SCSS
+```scss
 @for $i from 1 through 6 {
     &.img0#{$i} { 
         width: 200px;
