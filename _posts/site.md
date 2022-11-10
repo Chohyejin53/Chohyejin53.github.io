@@ -14,3 +14,8 @@ https://ssimplay.tistory.com/710
 -------
 - 스와이퍼 클릭하면 슬라이드 이동  
 -   https://codesandbox.io/s/9brhz2?file=/index.html
+
+
+----------
+- 걸프 관련 포스팅
+https://darrengwon.tistory.com/507
