@@ -86,6 +86,6 @@ transition: background-color 0.5s linear 0.5s;
 : 간단한 애니메이션의 구현 혹은 상태값에 따른 변경이 필요할 때는 Transition을 사용해도 좋지만, 디테일한 애니메이션의 구현이 필요한 경우 Animation 속성을 이용해 제어하는 것이 좋은 방법이라고 생각된다. 
 
 ### Reference
-- [[https://goddino.tistory.com/181](https://blog.naver.com/PostView.nhn?blogId=minhyupp&logNo=222142052947&parentCategoryNo=&categoryNo=46&viewDate=&isShowPopularPosts=true&from=search)](https://blog.naver.com/PostView.nhn?blogId=minhyupp&logNo=222142052947&parentCategoryNo=&categoryNo=46&viewDate=&isShowPopularPosts=true&from=search)
+blogId=minhyupp&logNo=222142052947&parentCategoryNo=&categoryNo=46&viewDate=&isShowPopularPosts=true&from=search)
 - [https://web-development.space/tools/px-to-vw/ ](https://til.mmyeon.com/animation/)
 - [https://jocoma.tistory.com/entry/%EA%B0%80%EB%B3%80-%EA%B7%B8%EB%A6%AC%EB%93%9C](https://velog.io/@hyemz/%EC%9B%B9-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%8B%9C%EB%8F%84%ED%95%B4%EB%B3%B4%EA%B8%B0)
