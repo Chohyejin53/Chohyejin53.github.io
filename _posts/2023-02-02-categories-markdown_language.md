@@ -12,8 +12,8 @@ permalink: /GIT&GITHUB/markdown_language/
 toc: true
 toc_sticky: true
 
-date: 2022-09-05
-last_modified_at: 2022-09-15
+date: 2023-02-02
+last_modified_at: 2023-02-02
 ---
 
 ##  MarkDown Language
@@ -292,16 +292,6 @@ h2 text
 ※ 마크다운에서는 Enter 로 줄바꿈이 되지않음.
 
 - `space` X 2번 입력
-- `</br>`
+- `<br>`
 
 
-### 각주
-- `text + [^id]`
-- `[^id] + text:des`
-
-결과물 :  
-
-- text[^id]
-- [^id]text:des
-
-※ github에서는 각주를 지원하지 않음.
