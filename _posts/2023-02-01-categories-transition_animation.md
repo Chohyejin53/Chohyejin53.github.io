@@ -12,8 +12,8 @@ permalink: /HTML&CSS&SCSS/transition_animation/
 toc: true
 toc_sticky: true
 
-date: 2022-10-18
-last_modified_at: 2022-10-18
+date: 2023-02-01
+last_modified_at: 2023-02-01
 ---
 
 ## CSS 트랜지션과 애니메이션
