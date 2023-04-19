@@ -19,3 +19,7 @@ https://ssimplay.tistory.com/710
 ----------
 - 걸프 관련 포스팅
 https://darrengwon.tistory.com/507
+
+
+- git 원하는 커밋 삭제 중간에 껴있는 커밋 삭제 
+https://jojoldu.tistory.com/613
