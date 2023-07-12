@@ -3,11 +3,11 @@ title: "[JQuery] 입력값에 따라 높이 자동 조절되는 textarea"
 excerpt: ""
 
 categories:
-  - JQuery
+  - JQuery&Javascript
 tags:
   - [HTML/CSS, JQuery]
 
-permalink: /JQuery/textarea_box/
+permalink: /JQuery&Javascript/textarea_box/
 
 toc: true
 toc_sticky: true

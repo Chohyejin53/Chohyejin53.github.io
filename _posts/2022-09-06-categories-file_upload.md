@@ -3,11 +3,11 @@ title: "[JQeury] 파일 업로드 UI"
 excerpt: "Language"
 
 categories:
-  - JQuery
+  - JQuery&Javascript
 tags:
   - [HTML/CSS, JQuery]
 
-permalink: /JQuery/file_upload/
+permalink: /JQuery&Javascript/file_upload/
 
 toc: true
 toc_sticky: true

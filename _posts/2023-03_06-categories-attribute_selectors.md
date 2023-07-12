@@ -12,8 +12,8 @@ permalink: /HTML&CSS&SCSS/attribute_selectors/
 toc: true
 toc_sticky: true
 
-date: 2022-10-07
-last_modified_at: 2022-10-07
+date: 2023-03-06
+last_modified_at: 2023-03-06
 ---
 
 ## CSS 속성선택자 심화

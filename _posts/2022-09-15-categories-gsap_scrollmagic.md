@@ -3,11 +3,11 @@ title: "[JQuery] GSAP을 이용한 Scroll Magic"
 excerpt: ""
 
 categories:
-  - JQuery
+  - JQuery&Javascript
 tags:
   - [JQuery, GSAP, scroll-event]
 
-permalink: /JQuery/gsap_scrollmagic/
+permalink: /JQuery&Javascript/gsap_scrollmagic/
 
 toc: true
 toc_sticky: true

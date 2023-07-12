@@ -3,11 +3,11 @@ title: "[JQuery] Tap 전환 UI"
 excerpt: ""
 
 categories:
-  - JQuery
+  - JQuery&Javascript
 tags:
   - [HTML/CSS, JQuery]
 
-permalink: /JQuery/tap_switch/
+permalink: /JQuery&Javascript/tap_switch/
 
 toc: true
 toc_sticky: true

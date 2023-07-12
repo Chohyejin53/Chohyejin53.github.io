@@ -22,9 +22,9 @@ categories:
     url: /categories/HTML&CSS&SCSS/
   - title: "GIT & GITHUB"
     url: /categories/GIT&GITHUB/
-  - title: "JQuery"
-    url: /categories/JQuery/
-  - title: "Javascript"
-    url: /categories/Javascript/
+  - title: "JQuery & Javascript"
+    url: /categories/JQuery&Javascript/
+  - title: "React"
+    url: /categories/React/
   - title: "Project"
     url: /categories/Project/

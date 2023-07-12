@@ -3,11 +3,11 @@ title: "[JQuery] GSAP"
 excerpt: ""
 
 categories:
- - JQuery
+ - JQuery&Javascript
 tags:
   - [JQuery, GSAP]
 
-permalink: /JQuery/gsap_basic/
+permalink: /JQuery&Javascript/gsap_basic/
 
 toc: true
 toc_sticky: true
