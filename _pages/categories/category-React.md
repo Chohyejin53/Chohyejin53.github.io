@@ -1,9 +1,9 @@
 ---
-title: "JQuery"
+title: "React"
 layout: category
-permalink: /categories/JQuery/
+permalink: /categories/React/
 author_profile: true
-taxonomy: JQuery
+taxonomy: React
 sidebar:
   nav: "categories"
 ---
