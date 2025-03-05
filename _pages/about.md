@@ -1,7 +1,7 @@
 ---
 title: "I'm Heyjin 👋🏻"
 permalink: /about/
-layout: Single
+layout: single
 comments: false
 ---
 
