@@ -23,11 +23,9 @@ comments: false
 
 
 <br />
-# Career
-- 2023.01 ~  <br />
-  : 교보문고 재직중 (Front-End)
-- 2021.11 ~ 2023.01 <br />
-  : 인컴즈 (Publishing)   
+# Career 
+<br />
+- 2023.01 ~  <br />: 교보문고 재직중 (Front-End)
+- 2021.11 ~ 2023.01 <br />: 인컴즈 (Publishing)   
 
-# Education
-- 
+
